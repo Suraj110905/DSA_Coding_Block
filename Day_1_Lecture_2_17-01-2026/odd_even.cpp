@@ -1,3 +1,4 @@
+//Q3. Check Whether a Number is Odd or Even
 # include <iostream>
 using namespace std;
 int main(){

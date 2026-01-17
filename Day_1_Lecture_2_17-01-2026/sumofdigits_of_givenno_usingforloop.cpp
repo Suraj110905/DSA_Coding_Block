@@ -1,0 +1,1 @@
+//Q12. Find the Sum of Digits of a Given Number using a Loop

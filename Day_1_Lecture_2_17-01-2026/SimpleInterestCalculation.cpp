@@ -1,3 +1,4 @@
+//Q2. Simple Interest Calculation
 # include <iostream>
 using namespace std;
 int main(){

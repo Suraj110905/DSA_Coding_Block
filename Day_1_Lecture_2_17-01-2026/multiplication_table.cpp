@@ -1,0 +1,1 @@
+//Q9. Print the Multiplication Table of 7

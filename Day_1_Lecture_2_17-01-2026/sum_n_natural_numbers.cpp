@@ -1,0 +1,1 @@
+//Q8. Find the Sum of N Natural Numbers
