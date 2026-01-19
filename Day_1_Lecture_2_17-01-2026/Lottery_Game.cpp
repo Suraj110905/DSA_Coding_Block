@@ -11,3 +11,21 @@ If n >= 1100 and n <= 1500, the prize is Cycle.
 If n > 50 and n <= 80, the prize is Bike.
 
 For all other values of n, print “Better luck next time.*/
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the number";
+    cin>>n;
+    if (n>=300 && n<=460){
+        cout<<"Congrats! You have won a MacBook";
+    }else if(n>=200 && n<=280){
+        cout<<"Congrats! You have won a Kurkure";
+    }else if(n>=1100 && n<=1500){
+        cout<<"Congrats! You have won a Cycle";
+    }else if(n>50 && n<=80){
+        cout<<"Congrats! You have won a Bike";
+    }else{
+        cout<<"Better luck next time";
+    }
+}
