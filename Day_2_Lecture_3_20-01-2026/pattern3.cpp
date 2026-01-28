@@ -6,19 +6,16 @@ n = 5
 * * *  
 * *  
 * 
-*/
-#include <iostream>
-using namespace std;
+                             */
 
-int main() {
-    int n = 5;
-
-    for(int i = n; i >= 1; i--) {        
-        for(int j = 1; j <= i; j++) {    
-            cout << "* ";
+                             
+   #include <iostream>
+   using namespace std;
+   int main(){
+        for(int row = 5;row>=1;row--){
+            for(int col = 5;col>=row;col--){
+                cout<<"* ";
+            }
+            cout<<endl;
         }
-        cout << endl;                    
-    }
-
-    return 0;
-}
+   }
