@@ -1,6 +1,8 @@
-//Q13. Reverse a Number using a While Loop
+//sum of the digits
 #include <iostream>
 using namespace std;
 int main(){
-    
+
 }
+
+

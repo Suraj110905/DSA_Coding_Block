@@ -1,0 +1,1 @@
+//find no between 1 to 100 which are not multiple of 3
