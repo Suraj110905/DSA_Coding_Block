@@ -24,14 +24,22 @@ Swap element with index
 
 for eg : element 4 at index 2 becomes element 2 at index 4*/
 
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    cout<<"enter the array size";
-
-    int arr[n] = {0,2,4,1,3};
-    
-
+int main() {
+	int n,c;
+	cin>>n>>c;
+	int arr[n];
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
+	int temp = arr[n-1];
+	for(int i=n-2;i>=0;i--){
+		arr[i+1] = arr[i];
+	}
+	arr[0]= temp;
+	for(int i=0;i<n;i++){
+		cout<<arr[i]<<" ";
+	}
+	return 0;
 }
